@@ -157,3 +157,5 @@ $ tree
     ├── app
     ...
 ```
+
+NOTE: The tree command may not be installed in your workspace; to install it, run `$ sudo apt install tree`. You should now be able to type `$ tree hw6.zip` to get a similar output as shown above.
