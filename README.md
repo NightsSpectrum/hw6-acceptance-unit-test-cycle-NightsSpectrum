@@ -16,12 +16,12 @@ Introduction and Setup
 To get the initial RottenPotatoes code please clone this repo to your local machine or Codio workspace, and execute the following command in your top level workspace directory of your Codio workspace:
 
 ```sh
-$ git clone https://github.com/saasbook/hw-acceptance-unit-test-cycle
+$ git clone https://github.com/UNCC-ITSC-3155-F18/hw6-acceptance-unit-test-cycle-[YOUR GITHUB USERNAME HERE]
 ```
 
 Once you have the clone of the repo:
 
-1) Change into the rottenpotatoes directory: `cd hw-acceptance-unit-test-cycle/rottenpotatoes`  
+1) Change into the rottenpotatoes directory: `cd hw6-acceptance-unit-test-cycle-[YOUR GITHUB USERNAME HERE]/rottenpotatoes`  
 2) Run `bundle install --without production` to make sure all gems are properly installed.    
 3) Run `bundle exec rake db:migrate` and `bundle exec rake db:migrate RAILS_ENV=test` to apply database migrations to both development and test databases.    
 4) Run these commands to set up the Cucumber directories (under features/) and RSpec directories (under spec/) if they don't already exist, allowing overwrite of any existing files:
